@@ -1,0 +1,57 @@
+body {
+    background-image: url("https://media.gettyimages.com/id/1151770135/photo/athletic-woman-exercising-push-ups-in-a-health-club.jpg?s=612x612&w=0&k=20&c=c28WRyEbYfWmf0BGG6fyWo1Hwe0JxRIswfsywAsZhKI=");
+    background-size: cover;
+    font-family: 'Black Ops One', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    height: 100vh; //100 ViewHeight - altså at bildet tar opp 100% av størrelsen på skjermen ;D
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px #FFFFFF;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px black;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkslategrey;
+    text-shadow: 2px 2px black;
+    
+}
+
+#save-btn {
+    background: grey;
+    text-shadow: 2px 2px black;
+}
+
+#save-el {
+    color: lightgrey;
+    text-shadow: 2px 2px black;
+    font-size: 20px;
+}
+
+#count-el {
+    color: grey;
+}
+
+.container {
+    margin-top: 100px;
+}
